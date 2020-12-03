@@ -1,4 +1,5 @@
 /*===== FIXED BACKGROUND IMG =====*/
+
 .fixed {
   position: fixed;
   display: block;
@@ -27,11 +28,55 @@
   height: 100%;
 }
 
-.caption {
-  width: 100%;
-  max-width: 100%;
-  position: absolute;
-  top: 38%;
-  color: #343a40;
+.div-center {
+  position: relative;
   text-transform: uppercase;
+  margin-top: -30%;
+}
+
+.img-about {
+  background-image: url("../img/matrix.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  height: 300px;
+  width: 100%;
+  background-color: #333133;
+  position: relative;
+  text-align: center;
+}
+
+.footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  width: 40%;
+  margin-left: 30%;
+}
+
+.footer i {
+  color: lightgray;
+  font-size: 30px;
+}
+
+.footer i:hover {
+  color: crimson;
+}
+
+.serviceStyle {
+  background-color: transparent;
+  color: aliceblue;
+  font-size: 36px;
+}
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: rgb(226, 12, 12);
 }
